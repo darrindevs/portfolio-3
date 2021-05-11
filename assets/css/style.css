@@ -1,0 +1,75 @@
+body {
+    background-color: #E7E2DA;
+}
+
+/* Rows */
+
+.row {
+    min-height: 200px;
+}
+
+p {
+    margin-top: 50px;
+    margin-left: 20px;;
+}
+
+#intro {
+    background-color: #4A154B;
+    color: white;
+}
+
+#row-2 {
+    background-color: #36C5F0;
+    color: white;
+}
+
+
+#row-3 {
+    background-color: #2EB67D;
+    color: white;
+}
+
+
+#row-4 {
+    background-color: #ECB22E;
+    color: white;
+}
+
+#row-5 {
+    background-color:#E01E5A;
+    color: white;
+}
+
+
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top:;
+    max-height: 20px;
+ }
+
+ .footer-link {
+     text-decoration: none;
+ }
+
+ 
+ /* Media Queries 
+
+/* Bigger breakpoints */
+@media (min-width: 576px) { 
+    
+ }
+
+/* Smaller breakpoints */
+@media (max-width: 576px) { 
+
+ }
+ 
