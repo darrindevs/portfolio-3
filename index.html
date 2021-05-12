@@ -22,7 +22,7 @@
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-            <!-- brand here-->
+            🤓 &nbsp; Darrin Weyers
           </a>
           <div class="text-end">
           </div>
@@ -89,7 +89,7 @@ var typewriter1 = new Typewriter(app, {
 
 $("#p-intro").on({
     mouseenter: function () {
-    typewriter1.typeString('<h1>Hey there! 👋 I\'m Darrin, a full stack web developer from Oakland, CA.</h1>')
+    typewriter1.typeString('<h1>Hey there! I\'m Darrin, a full stack web developer from Oakland, CA.</h1>')
     .pauseFor(2500)
     //.deleteAll()
     .typeString('<h1>I\'ve been taking this coding bootcamp at UC Berkeley and making some fun things on the web.</h1>')
@@ -112,10 +112,10 @@ var typewriter2 = new Typewriter(app, {
 
 $("#p-2").on({
     mouseenter: function () {
-    typewriter2.typeString('<h2>I recently finished building a full stack app called <strong>Game of Bones.</h2>')
+    typewriter2.typeString('<h2>I recently finished building a full stack app called <a class="link" target="blank" href="https://ancient-shelf-96067.herokuapp.com/">Game of Bones</a>.')
     .pauseFor(25)
     //.deleteAll()
-    .typeString('<h2>It\'s a multi-player ♣️ card game utilizing a <strong>RESTful API</strong> built on <strong>Node.js</strong> + <strong>Express.js</strong>, <strong>MySQL database</strong>, <strong>Sequelize ORM</strong>, <strong>GET</strong> + <strong>POST</strong> routes, dynamic image rendering, <strong>Handlebars.js</strong> templating engine, user authentication with <strong>Express-Session</strong> + 🍪 s,  and in app purchases using <strong>Stripe</strong>.</h2>')
+    .typeString('<h2>It\'s a multi-player card game utilizing a <strong>RESTful API</strong> built on <strong>Node.js</strong> + <strong>Express.js</strong>, <strong>MySQL database</strong>, <strong>Sequelize ORM</strong>, <strong>GET</strong> + <strong>POST</strong> routes, dynamic image rendering, <strong>Handlebars.js</strong> templating engine, user authentication with <strong>Express-Session</strong> + 🍪 s,  and in app purchases using <strong>Stripe</strong>.</h2>')
     .pauseFor(2500)
     //.deleteChars(86)
     .typeString('<h2>This was a group project with <strong>Alex</strong> and <strong>Manuel</strong>. Take a look! <a class="link" target="blank" href="https://ancient-shelf-96067.herokuapp.com/">Game of Bones</a></h2>')
@@ -145,7 +145,7 @@ $("#p-3").on({
     //.deleteChars(86)
     .typeString('<h3>This project uses <strong>event listeners</strong>, <strong>local storage</strong>, multiple <strong>external api requests</strong>, and direct <strong>DOM manipulation</strong>. This app was a collobaborative project.</h3>')
     .pauseFor(2500)
-    .typeString('<h4>Go ahead! Find a movie and a beverage! 🍸</h4>')
+    .typeString('<h3>Go ahead! Find a movie and a beverage! 🍸</h3>')
     .pauseFor(10000000000)
     .start()
     //$("#foo").hide();

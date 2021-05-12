@@ -21,6 +21,13 @@ strong {
     color: black;
 }
 
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
 #intro {
     background-color: #4A154B;
     color: white;
@@ -71,13 +78,12 @@ strong {
  
  /* Media Queries 
 
-/* Bigger breakpoints */
+/* Bigger breakpoints 
 @media (min-width: 576px) { 
     
- }
+}*/
 
-/* Smaller breakpoints */
+/* Smaller breakpoints 
 @media (max-width: 576px) { 
 
- }
- 
+}*/
