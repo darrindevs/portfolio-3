@@ -92,11 +92,9 @@ $("#p-intro").on({
     typewriter1.typeString('<h1>Hey there! 👋 I\'m Darrin, a full stack web developer from Oakland, CA.</h1>')
     .pauseFor(2500)
     //.deleteAll()
-    .typeString('<h1>I\'ve been taking this coding boot camp at UC Berkeley and it has been kicking my butt.</h1>')
+    .typeString('<h1>I\'ve been taking this coding bootcamp at UC Berkeley and making some fun things on the web.</h1>')
     .pauseFor(2500)
-    .deleteChars(86)
-    .typeString('<h1>I\'ve been taking this coding boot camp at UC Berkeley and I\'m ❤️ ing it!</h1>')
-    .pauseFor(2500)
+    //.deleteChars(86)
     .typeString('<h1>Check out some of my projects.</h1>')
     .pauseFor(10000000000)
     .start()
@@ -117,7 +115,7 @@ $("#p-2").on({
     typewriter2.typeString('<h2>I recently finished building a full stack app called <strong>Game of Bones.</h2>')
     .pauseFor(25)
     //.deleteAll()
-    .typeString('<h2>It\'s a multi-player ♣️ card game utilizing a RESTful API built on Node.js + Express.js, MySQL database, Sequelize ORM, GET + POST routes, dynamic image rendering, Handlebars.js templating engine, user authentication with Express-Session + 🍪s, and in app purchases using Stripe.</h2>')
+    .typeString('<h2>It\'s a multi-player ♣️ card game utilizing a <strong>RESTful API</strong> built on <strong>Node.js</strong> + <strong>Express.js</strong>, <strong>MySQL database</strong>, <strong>Sequelize ORM</strong>, <strong>GET</strong> + <strong>POST</strong> routes, dynamic image rendering, <strong>Handlebars.js</strong> templating engine, user authentication with <strong>Express-Session</strong> + 🍪 s,  and in app purchases using <strong>Stripe</strong>.</h2>')
     .pauseFor(2500)
     //.deleteChars(86)
     .typeString('<h2>This was a group project with <strong>Alex</strong> and <strong>Manuel</strong>. Take a look! <a class="link" target="blank" href="https://ancient-shelf-96067.herokuapp.com/">Game of Bones</a></h2>')
@@ -139,10 +137,10 @@ var typewriter3 = new Typewriter(app, {
 
 $("#p-3").on({
     mouseenter: function () {
-    typewriter3.typeString('<h3>Are you looking for inspiration on a Saturday night at home?</h3>')
+    typewriter3.typeString('<h3>Are you looking for <strong>inspiration</strong> on a Friday night at home?</h3>')
     .pauseFor(2500)
     //.deleteAll()
-    .typeString('<h3>We built this handy app <a target="blank" href="https://darrindevs.github.io/netflix-and-chilled-cocktails/">handy app</a> to help you find a movie 🎥 on <strong>Netflix</a> and pair it with a delicious cocktail.</h3>')
+    .typeString('<h3>We built this handy app <a target="blank" href="https://darrindevs.github.io/netflix-and-chilled-cocktails/">handy app</a> to help you find a movie 🎥 on <strong>Netflix</strong> and pair it with a delicious cocktail.</h3>')
     .pauseFor(2500)
     //.deleteChars(86)
     .typeString('<h3>This project uses <strong>event listeners</strong>, <strong>local storage</strong>, multiple <strong>external api requests</strong>, and direct <strong>DOM manipulation</strong>. This app was a collobaborative project.</h3>')
@@ -158,19 +156,20 @@ $("#p-3").on({
 var app = document.getElementById('p-4');
 
 var typewriter4 = new Typewriter(app, {
-    loop: true
+    loop: true,
+    cursor: "⛅️"
 });
 
 $("#p-4").on({
     mouseenter: function () {
-    typewriter4.typeString('<h1>Maybe you are looking to put on a pair of headphones and relax in a different way.</h1>')
+    typewriter4.typeString('<h5>Maybe you need to know the weather in Cape Town or Tokyo 🗼.</h5>')
     .pauseFor(2500)
     //.deleteAll()
-    .typeString('<h1>Imagined as my own personal radio station 📻, <a href="" target="blank">Dead Stream</a> is a curated playlist of the Grateful Dead Universe, streaming 24/7. Tune in for over 2300 shows and more.</h1>')
+    .typeString('<h5>This <a target="blank" href="https://darrindevs.github.io/weather-dashboard/">browser based application </a>  leverages <strong>OpenWeatherMap API</strong> to consume weather data based on user input. The user request updates the query parameters to return various weather data points for a selected city. The <strong>third-party API</strong> returns the data and the app uses <strong>JavaScript</strong> to dynamically insert the contents in the HTML.</h5>')
     .pauseFor(2500)
     //.deleteChars(86)
-    .typeString('<h1>⚡️ <strong>Dead Stream</strong> is built on <strong>WordPress</strong>, and developed as a completely custom theme using <strong>PHP</strong>, <strong>HTML</strong>, and <strong>JavaScript</strong>.</h1>')
-    .pauseFor(2500)
+    //.typeString('')
+    //.pauseFor(2500)
     //.typeString('')
     .pauseFor(10000000000)
     .start()
@@ -182,20 +181,27 @@ $("#p-4").on({
 var app = document.getElementById('p-5');
 
 var typewriter5 = new Typewriter(app, {
-    loop: true
+    loop: true,
+    cursor: "🛸"
 });
 
 $("#p-5").on({
     mouseenter: function () {
-    typewriter5.typeString('<h1>Hey there! 👋 I\'m Darrin, a full stack web developer from Oakland, CA.</h1>')
+    typewriter5.typeString('<h6>Contact me!</h6>')
     .pauseFor(2500)
     //.deleteAll()
-    .typeString('<h1>I\'ve been taking this coding boot camp at UC Berkeley and it has been kicking my butt.</h1>')
+    .typeString('<h6>Find me on <a target="blank" href="">GitHub</a>.</h6>')
     .pauseFor(2500)
-    .deleteChars(86)
-    .typeString('<h1>I\'ve been taking this coding boot camp at UC Berkeley and I\'m ❤️ ing it!</h1>')
+    .typeString('<h6>Or on <a target="blank" href="">LinkedIn</a>.</h6>')
     .pauseFor(2500)
-    .typeString('<h1>Check out some of my projects.</h1>')
+    //.deleteChars(86)
+    .typeString('<h6>Or on <a target="blank" href="">Medium</a>.</h6>')
+    .pauseFor(2500)
+    .typeString('<h6>Or <a href="mailto:hello@darrin.dev">email</a>.</h6>')
+    .pauseFor(2500)
+    .typeString('<h6>Or text me at 4153506760.</h6>')
+    .pauseFor(2500)
+    .typeString('<h6>Download my <a target="blank" href="https://www.dropbox.com/s/i0u2jgph6spafhj/Darrin_Weyers.pdf?dl=0">CV</a></h6>')
     .pauseFor(10000000000)
     .start()
     //$("#foo").hide();
